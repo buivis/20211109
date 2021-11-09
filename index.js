@@ -49,13 +49,13 @@ const person = {
 }
  let citizen; // Be reiksnmes
 
-if(person.age >= 18 && person.isLithuanian){
-    citizen="Gali balsuoti";
+// if(person.age >= 18 && person.isLithuanian){
+//     citizen="Gali balsuoti";
     
-}
-if(citizen) {
-    console.log(citizen) // Patikrins ar nera neigiama salyga ir nieko neatspausdins nes neturi reiksmems.
-}
+// }
+// if(citizen) {
+//     console.log(citizen) // Patikrins ar nera neigiama salyga ir nieko neatspausdins nes neturi reiksmems.
+// }
 // Neismes nieko
 
 // citizen = person.age >= && person.isLithuania ? Galima balsuo: Negalima;
@@ -73,3 +73,4 @@ if(citizen) {
 //     console.log('Bandykite dar karta')
 // }
 
+const allow = (person.age >= 18 && person.isLithuanian) ? citizen = 'gali balsuoti': '';
